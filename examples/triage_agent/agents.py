@@ -1,3 +1,6 @@
+#Es una especie de "MOE" con los agentes, un agente principa(de primer nivel) tiene las funciones para transferir a otros agentes a su eleccion segun la tarea a realizar, 
+# luego los agentes de segundo nivel tienen la capacidad de volver al agente de primer nivel en caso de recibir una tare que no son capaces de realizar y el de primer nivel volvera a 
+# delegar en el adecuado para la tarea
 from swarm import Agent
 
 
