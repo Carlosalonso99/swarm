@@ -1,4 +1,9 @@
+# Demuestra cómo transferir una conversación de un agente a otro.
+# Uso : Transfiere usuarios de habla hispana de un agente inglés a un agente español.
 from swarm import Swarm, Agent
+from dotenv import load_dotenv
+
+load_dotenv()
 
 client = Swarm()
 
@@ -20,7 +25,7 @@ def transfer_to_spanish_agent():
 
 english_agent.functions.append(transfer_to_spanish_agent)
 
-messages = [{"role": "user", "content": "Hola. ¿Como estás?"}]
+messages = [{"role": "user", "content": "Hola , ¿Qué tal estas?"}]
 response = client.run(agent=english_agent, messages=messages)
 
 print(response.messages[-1]["content"])

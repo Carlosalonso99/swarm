@@ -1,5 +1,9 @@
+# Demuestra cómo definir y llamar funciones desde un agente.
+# Uso : configura un agente que puede responder con información meteorológica para una ubicación determinada.
 from swarm import Swarm, Agent
+from dotenv import load_dotenv
 
+load_dotenv()
 client = Swarm()
 
 

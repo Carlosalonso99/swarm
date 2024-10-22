@@ -1,4 +1,10 @@
+# Muestra cómo utilizar variables de contexto dentro de un agente.
+# Uso : utiliza variables de contexto para saludar a un usuario por su nombre e imprimir detalles de la cuenta.
 from swarm import Swarm, Agent
+from dotenv import load_dotenv
+
+
+load_dotenv()
 
 client = Swarm()
 

@@ -1,37 +1,38 @@
-# Swarm basic
 
-This folder contains basic examples demonstrating core Swarm capabilities. These examples show the simplest implementations of Swarm, with one input message, and a corresponding output. The `simple_loop_no_helpers` has a while loop to demonstrate how to create an interactive Swarm session.
+# Swarm básico
 
-### Examples
+Esta carpeta contiene ejemplos básicos que demuestran las capacidades principales de Swarm. Estos ejemplos muestran las implementaciones más sencillas de Swarm, con un mensaje de entrada y una salida correspondiente. El archivo `simple_loop_no_helpers` contiene un bucle `while` para demostrar cómo crear una sesión interactiva con Swarm.
+
+### Ejemplos
 
 1. **agent_handoff.py**
 
-   - Demonstrates how to transfer a conversation from one agent to another.
-   - **Usage**: Transfers Spanish-speaking users from an English agent to a Spanish agent.
+   - Demuestra cómo transferir una conversación de un agente a otro.
+   - **Uso**: Transfiere usuarios de habla hispana de un agente en inglés a un agente en español.
 
 2. **bare_minimum.py**
 
-   - A bare minimum example showing the basic setup of an agent.
-   - **Usage**: Sets up an agent that responds to a simple user message.
+   - Un ejemplo mínimo que muestra la configuración básica de un agente.
+   - **Uso**: Configura un agente que responde a un mensaje simple del usuario.
 
 3. **context_variables.py**
 
-   - Shows how to use context variables within an agent.
-   - **Usage**: Uses context variables to greet a user by name and print account details.
+   - Muestra cómo usar variables de contexto dentro de un agente.
+   - **Uso**: Utiliza variables de contexto para saludar a un usuario por su nombre e imprimir detalles de la cuenta.
 
 4. **function_calling.py**
 
-   - Demonstrates how to define and call functions from an agent.
-   - **Usage**: Sets up an agent that can respond with weather information for a given location.
+   - Demuestra cómo definir y llamar funciones desde un agente.
+   - **Uso**: Configura un agente que puede responder con información meteorológica para una ubicación dada.
 
 5. **simple_loop_no_helpers.py**
-   - An example of a simple interaction loop without using helper functions.
-   - **Usage**: Sets up a loop where the user can continuously interact with the agent, printing the conversation.
+   - Un ejemplo de un bucle de interacción simple sin utilizar funciones de ayuda.
+   - **Uso**: Configura un bucle donde el usuario puede interactuar continuamente con el agente, imprimiendo la conversación.
 
-## Running the Examples
+## Ejecutar los ejemplos
 
-To run any of the examples, use the following command:
+Para ejecutar cualquiera de los ejemplos, utiliza el siguiente comando:
 
 ```shell
-python3 <example_name>.py
+python3 <nombre_del_ejemplo>.py
 ```

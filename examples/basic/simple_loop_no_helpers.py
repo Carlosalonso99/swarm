@@ -1,5 +1,9 @@
+# Un ejemplo de un bucle de interacción simple sin utilizar funciones auxiliares.
+# Uso : Configura un bucle donde el usuario puede interactuar continuamente con el agente, imprimiendo la conversación.
 from swarm import Swarm, Agent
+from dotenv import load_dotenv
 
+load_dotenv()
 client = Swarm()
 
 my_agent = Agent(
