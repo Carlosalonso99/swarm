@@ -1,0 +1,7 @@
+id,nombre,edad,salario
+1,Juan,28.0,3000.0
+2,Maria,34.0,4000.0
+3,Carlos,29.0,3500.0
+4,Ana,,3200.0
+5,Luis,40.0,
+6,Maria,34.0,4000.0
